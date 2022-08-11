@@ -1,5 +1,5 @@
 Name: user.rpc
-ListenOn: 127.0.0.1:8080
+ListenOn: 127.0.0.1:1001
 Etcd:
   Hosts:
   - 182.254.226.81:2379
