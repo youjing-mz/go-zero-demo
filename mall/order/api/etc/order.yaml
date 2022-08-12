@@ -1,8 +1,5 @@
 Name: order
 Host: 0.0.0.0
-Port: 8888
+Port: 1002
 UserRpc:
-  Etcd:
-    Hosts:
-    - 182.254.226.81:2379
-    Key: user.rpc
+  Target: k8s://go-demo/user-rpc-svc:1001
